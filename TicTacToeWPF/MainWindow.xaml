@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:TicTacToeWPF"
         mc:Ignorable="d"
-        Title="MainWindow" Height="500" Width="500">
+        Title="MainWindow" MinHeight="500" MinWidth="500" SizeToContent="WidthAndHeight">
     <DockPanel>
         <Grid DockPanel.Dock="Top">
             <Border Height="400" Width="400">
